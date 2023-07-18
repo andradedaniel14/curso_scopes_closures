@@ -22,7 +22,7 @@ function sumWithClosure(firstNum) {
     let num_1 = firstNum
     function sumSecond(secondNum) {
         let num_2 = secondNum
-      if (secondNum) { //A ser un vacio, JavaScript lo interpreta como un valor Falsy
+      if (secondNum) { //Al ser un vacio, JavaScript lo interpreta como un valor Falsy
         return num_1 + num_2
       } 
       else {
