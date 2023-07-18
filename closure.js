@@ -34,7 +34,6 @@ function sumWithClosure(firstNum) {
 
 console.log(sumWithClosure(2)())
 
-//Ejemplo
 function moneyBox() {
     let saveCoins = 0;
     function countCoins(coins) {
